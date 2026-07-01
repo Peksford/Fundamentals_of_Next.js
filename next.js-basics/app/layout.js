@@ -1,8 +1,9 @@
 import NavigationBar from './components/Navigation';
-import './globals.css';
+import '@/styles/globals.css';
 
 export const metadata = {
-  title: 'Next.js Course',
+  title: 'My App',
+  description: 'Styled with global CSS',
 };
 
 export default function RootLayout({ children }) {
